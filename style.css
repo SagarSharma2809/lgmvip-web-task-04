@@ -1,0 +1,67 @@
+html {
+    background-color: #DAFFFB;
+    box-sizing: border-box;
+
+}
+
+
+table {
+    background-color: #001C30;
+    text-align: center;
+    margin-bottom: 80px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+button {
+    background-color: #176B87;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 12px 22px;
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.displayScreen {
+    background-color: white;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    max-width: 197.31px;
+    resize: none;
+    color: darkslategrey;
+}
+
+.clearButton {
+    background-color: #64CCC5;
+}
+
+.evalButton {
+    background-color: #64CCC5;
+}
+
+#deleteButton {
+    background-color: #64CCC5;
+    display: block;
+    width: 100%;
+}
